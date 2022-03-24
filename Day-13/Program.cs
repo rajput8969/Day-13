@@ -1,4 +1,5 @@
-﻿using System;
+﻿                //Given 3 Floats find the maximum//
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,16 +10,16 @@ namespace Day_13
     {
         static void Main(string[] args)
         {
-            int num1, num2, num3;
+            float num1, num2, num3;
             // set the value of the three numbers
             Console.WriteLine("Enter the first number : ");
-            num1 = int.Parse(Console.ReadLine());
+            num1 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter the second number : ");
-            num2 = int.Parse(Console.ReadLine());
+            num2 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter the third number : ");
-            num3 = int.Parse(Console.ReadLine());
+            num3 = float.Parse(Console.ReadLine());
           
 
             if (num1 > num2)
